@@ -15,7 +15,8 @@ html, body {
 nav {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 50%;
+    transform: translate(-50%);
     min-width: 650px;
     width: 40%;
     max-width: 800px;
@@ -26,7 +27,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
 
-    border-radius: 8px;
+    border-radius: 0px 0px 8px 8px;
     color: black;
 }
 
