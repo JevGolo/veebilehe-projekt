@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
+
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 650px;
+    width: 40%;
+    max-width: 800px;
+    height: 50px;
+    background-color: #BBBBBB;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border-radius: 8px;
+    color: black;
+}
+
+nav span {
+    display: inline-block;
+    height: 100%;
+    line-height: 50px;
+    padding: 0 20px;
+    background-color: #9e8887;
+}
+
+nav span:hover {
+    cursor: pointer;
+    background-color: #857473;
+}
+
+.main-content {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    min-height: 100px;
+    min-width: 650px;
+    width: 40%;
+    max-width: 800px;
+    background-color: #BBBBBB;
+    padding: 20px 50px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
