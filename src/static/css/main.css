@@ -5,11 +5,11 @@ html, body {
     padding: 0;
     top: 0;
     left: 0;
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     font-family: "Roboto", sans-serif;
-    overflow-y: auto;
+    overflow: hidden;
 }
 
 #href {
@@ -63,6 +63,7 @@ nav span:hover {
 }
 
 .main-content {
+    position: absolute;
     top: 100px;
     left: 50%;
     transform: translate(-50%);
