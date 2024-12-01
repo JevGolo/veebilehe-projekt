@@ -7,20 +7,35 @@ html, body {
     left: 0;
     position: absolute;
     width: 100%;
-    height: auto;
-
+    height: 100%;
     font-family: "Roboto", sans-serif;
+    overflow: hidden;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('src/static/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(10px);
+    z-index: -1;
 }
 
 nav {
     position: absolute;
     top: 0;
     right: 0;
-    min-width: 650px;
-    width: 40%;
-    max-width: 800px;
+    min-width: 300px;
+    width: 30%;
+    max-width: 400px;
     height: 50px;
-    background-color: #BBBBBB;
+    background-color: #9e9e9e;
 
     display: flex;
     flex-direction: row;
