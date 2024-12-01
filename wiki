@@ -1,1 +1,12 @@
-Artjom-Disain,Jevgeni-HTML,CSS,Kaur-Ideed,HTML,CSS.
+#Veebilehe eesmärk 
+Veebileht tutvustab muusikat, pakkudes külastajatele ülevaadet erinevatest muusikažanritest.
+
+#Tiimiliikmed
+    Artjom: Peamiselt vastutab ideede loomise, disaini,aitas moraalselt 
+    Jevgeni: "Megamind", vastutab kõigi ülesannete täitmise eest, sealhulgas tehnilised ja arendustööd.
+    Kaur: Vastutab veebilehe sisu loomise ja tekstide kirjutamise eest.
+
+#Tiimisisene tööjaotus
+    Artjom: Fookuses oli ideede arendamine, disaini loomine.
+    Jevgeni: Tegeles tehniliste probleemide lahendamisega ja täitis ülesandeid, mida Artjom ei oska, tagades projekti sujuva toimimise.
+    Kaur: Põhitegevuseks oli veebilehe sisuloome, sealhulgas tekstide kirjutamine, mis tutvustavad muusikamaailma erinevaid aspekte.
