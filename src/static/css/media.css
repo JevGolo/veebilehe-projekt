@@ -1,0 +1,7 @@
+@media (max-width: 800px) {
+
+    .main-content {
+        width: 80%;
+        min-width: 300px;
+    }
+}

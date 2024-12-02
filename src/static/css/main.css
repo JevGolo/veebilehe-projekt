@@ -25,7 +25,7 @@ body::before {
     background-image: url('../images/background.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: re;
     background-attachment: scroll;
     filter: blur(10px);
     z-index: -1;
@@ -73,10 +73,10 @@ nav {
 nav a, .dropdown span {
     color: white;
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 0 20px;
     display: inline-block;
-    height: 40px;
-    line-height: 40px;
+    height: 50px;
+    line-height: 50px;
     border-radius: 5px;
     text-align: center;
 }
@@ -132,6 +132,7 @@ nav .dropdown:hover .dropdown-menu {
 a {
     text-decoration: none;
     color: black;
+    display: block;
 }
 
 a:hover {
